@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    /* height: 100%; */
+}
+
+/*commmon classes */
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.horizontal-line{
+    border-bottom: 1px solid rgb(119, 116, 116);
+    margin-top: 1em;
+}
+
+.logo{
+    flex-basis: 10%;
+    padding-top: 2em;
+    padding-left: 1em;
+       
+
+}
+.top-nav{
+    display: flex;
+    /* flex-basis: 50%; */
+    /* justify-content: space-between;  */
+}
+
+.header{
+    background-color: rgb(4, 1, 7);
+    height: 5%;
+    width: 100%;
+}
+.header a {
+    color: white;
+}
+
+.sub-header{
+    background-color: rgb(37, 45, 58);
+}
+
+.sub-header{
+    height: 3%;
+    width: 100%;
+}
+
+.search-form{
+   padding-right: 70em;
+   padding-top: 2em;
+}
+
+button{
+    background-color: orange;
+}
+
+.search-img{
+    width: 20px;
+    
+}
+.banner-container{
+    background-image: url(../img/banner-background-landscape-birds.jpeg);
+    height: 30em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* grid-column: 1 / span 3;  */
+   
+}
+
+/* style for footer */
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(63, 55, 55);
+    color: white;
+    padding-top: 2em;
+    height: 25em;
+    width: 100%;
+}
+
+ .item {
+
+    border: none solid white;
+    text-align:center;
+    /*width: 10em;
+    padding: 3em;*/
+} 
+
+.item img {
+    width:100%;
+    height:17em;
+    margin-bottom:10px;
+}
+
+.item p{
+    margin-bottom:20px;
+}
+ 
+.grid-container .item  {
+    
+    border: 0.5em solid black;
+    margin-bottom: 2em;
+    margin-left: 0.5em;
+
+}
+.list-destination{
+    margin-top: 6em;
+    display: grid;
+    grid-template-columns: 33fr 34fr 33fr;
+
+}
+
+
+/* Style for footer starts here */
+.footer{
+    padding: 3em;
+    background-color: darkgray;
+    color:cornsilk
+}
+.items{
+    flex-basis: calc(96%/ 4);
+    margin-bottom: 1em;
+}
+
+/* style for footer */
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
+    padding-top: 2em;
+    height: 25em;
+    width: 100%;
+}
+
+.item {
+
+    border: none solid white;
+    text-align:center;
+    /*width: 10em;
+    padding: 3em;*/
+}
+
+.item img {
+    width:100%;
+    height:7em;
+    margin-bottom:10px;
+}
+
+.item p{
+    margin-bottom:20px;
+}
+@media screen and (min-width:40em){
+    .footer-container {
+        display: unset;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+      background-color: lightblue;
+    }
+  }
