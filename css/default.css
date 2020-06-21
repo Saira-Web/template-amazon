@@ -3,6 +3,8 @@
     /* height: 100%; */
 }
 
+
+
 /*commmon classes */
 .flex{
     display: flex;
@@ -26,6 +28,10 @@
     /* justify-content: space-between;  */
 }
 
+.search-box{
+    width: 30%;
+    padding: 7px 10px 10px 10px;
+}
 .header{
     background-color: rgb(4, 1, 7);
     height: 5%;
@@ -33,29 +39,63 @@
 }
 .header a {
     color: white;
+    font-size: 2em;
+
+
+}
+
+.sub-header a{
+    color: white;
+    font-size: 1.5em;
 }
 
 .sub-header{
     background-color: rgb(37, 45, 58);
-}
-
-.sub-header{
     height: 3%;
     width: 100%;
 }
 
-.search-form{
-   padding-right: 70em;
-   padding-top: 2em;
+#search{
+    width: 650px;
+    height: 50px;
+    margin: 15px;
+    margin-right: 0px;
 }
 
 button{
     background-color: orange;
+    width: 100px;
+    height: 50px;
+    margin: 15px;
+    margin-left: 0px;
+    
 }
 
-.search-img{
-    width: 20px;
-    
+.search-btn{
+    display: flex;
+}
+
+.list-of-items {
+    display: inline-block;
+    color: white;   
+    margin: 1em;
+    padding-left:0px;
+}
+
+.list-item{
+    display: inline;
+    padding: 1em;
+}
+
+ .search-icon{
+     width: 30px;
+}
+
+.login{
+    display: inline-block;
+    margin-left: 750px;
+    font-size: 1em;
+
 }
 .banner-container{
     background-image: url(../img/banner-background-landscape-birds.jpeg);
